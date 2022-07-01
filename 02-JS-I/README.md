@@ -10,11 +10,11 @@
       </a>
     </td>
   </tr>
-</table>
+</table> 
 
 # JavaScript I
 
-#### Introducción a JavaScript
+#### Introducción a JavaScript de ferreira
 
 En esta lección cubriremos:
 
