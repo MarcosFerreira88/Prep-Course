@@ -172,9 +172,16 @@ Cuando declaramos una función el intérprete puede *interpretarla* como un stat
 
 ```js
 //function declaration
-
+//a=5 b=4
 function resta(a, b) {
  // bloque de código
+ return a-b
+ //1
+}
+function mensaje(){
+  return 'hola'
+
+
 }
 
 // function expression

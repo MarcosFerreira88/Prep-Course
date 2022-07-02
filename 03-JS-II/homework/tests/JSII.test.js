@@ -185,15 +185,15 @@ describe ('tablaDelSeis()', function() {
   });
 });
 
-describe ('tieneTresDigitos(numero)', function() {
-  it('should return true if numero has 3 digits', function() {
-    expect(tieneTresDigitos(100)).toBe(true);
-    expect(tieneTresDigitos(820)).toBe(true);
-    expect(tieneTresDigitos(900)).toBe(true);
-    expect(tieneTresDigitos(10)).toBe(false);
-    expect(tieneTresDigitos(20000)).toBe(false);
-  });
-});
+// describe ('tieneTresDigitos(numero)', function() {
+//   it('should return true if numero has 3 digits', function() {
+//     expect(tieneTresDigitos(100)).toBe(true);
+//     expect(tieneTresDigitos(820)).toBe(true);
+//     expect(tieneTresDigitos(900)).toBe(true);
+//     expect(tieneTresDigitos(10)).toBe(false);
+//     expect(tieneTresDigitos(20000)).toBe(false);
+//   });
+// });
 
 describe('doWhile(numero)', function() {
   it('should add 5 to number until reaching a limit of 8 times and return the sum value', function() {
